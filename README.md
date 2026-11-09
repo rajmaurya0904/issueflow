@@ -2,7 +2,9 @@
 
 **An automated GitHub issue triage agent that reads incoming bug reports, reproduces stack traces against local tests, and labels regressions.**
 
-<!-- THE PROBLEM: 2-3 concrete lines on the annoying thing this removes. -->
+The current manual triage of GitHub issues is time‑consuming and error‑prone.
+Developers must read each bug report, reproduce failures locally, and decide which labels apply, often missing regressions.
+IssueFlow automates this workflow, instantly matching stack traces to failing tests and applying appropriate labels.
 
 ## Example
 
