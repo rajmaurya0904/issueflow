@@ -1,0 +1,5 @@
+[tool.issueflow]
+repo = "owner/repo"
+labels = ["bug", "reproduced"]
+test_command = "pytest -q"
+dry_run = true
