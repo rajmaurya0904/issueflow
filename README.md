@@ -26,7 +26,7 @@ pip install -e ".[dev]"
 
 ## Limitations
 
-<!-- Honest and short: what it does NOT do, known gaps. -->
+IssueFlow only works with public GitHub repositories and requires a personal access token with `repo` scope set in the `GITHUB_TOKEN` environment variable. It is designed for Python projects that use `pytest` as the test runner; other languages or test frameworks are not supported. The tool does not handle private repositories, complex CI pipelines, or issues without stack traces.
 
 ## Development
 
